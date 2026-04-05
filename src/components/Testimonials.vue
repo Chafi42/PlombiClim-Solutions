@@ -44,7 +44,7 @@
                     </p>
 
                     <div class="flex justify-between    items-center">
-                        <span class="font-bold text-slate-800">{{
+                        <span class="font-bold relative  text-slate-800">{{
                             avis.author
                         }}</span>
                         <span class="text-sm text-gray-400">{{
