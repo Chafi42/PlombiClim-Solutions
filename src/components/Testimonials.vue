@@ -66,20 +66,20 @@ import { Star, Quote } from "@lucide/vue";
 
 const testimonials = [
     {
-        author: "Yelies Meghdich",
-        date: "2024-05-15",
+        author: "Jérémy F.",
+        date: "2025-12-02",
         text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century.",
     },
     {
-        author: "Chafi Aadssi",
-        date: "2024-05-20",
-        text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century.",
+        author: "Adem R.",
+        date: "2026-01-17",
+        text: "Une fuite d'eau importante un samedi matin... J'étais en panique ! L'équipe est intervenue en moins d'une heure. Le dépannage a été rapide et le tarif annoncé au téléphone a été respecté. Un vrai soulagement de trouver des artisans honnêtes et efficaces.",
     },
     {
-        author: "Mohamed Lazard",
-        date: "2024-05-25",
+        author: "Cinthia M.",
+        date: "2026-03-25",
 
-        text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century.",
+        text: "J'ai fait appel à cette entreprise pour le remplacement complet de ma vieille chaudière par une pompe à chaleur. Travail soigné, explications claires sur le fonctionnement et surtout, un chantier laissé impeccable. Je recommande vivement pour leur professionnalisme.",
     },
 ];
 </script>
