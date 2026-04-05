@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ASTUCE : Évite que la Navbar ne cache le haut de tes sections */
+section,
+div[id] {
+    scroll-margin-top: 100px; /* Ajuste selon la hauteur de ta navbar */
+}
+
+.manrope {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
