@@ -68,18 +68,18 @@ const testimonials = [
     {
         author: "Jérémy F.",
         date: "2025-12-02",
-        text: "Installation d'une climatisation réversible dans nos bureaux, rès bon conseil sur le choix du matériel pour optimiser la consommation d'énergie",
+        text: "Installation d'une climatisation réversible dans nos bureaux, rès bon conseil sur le choix du matériel pour optimiser la consommation d'énergie  et un travail de qualité, je recommande vivement !",
     },
     {
         author: "Adem R.",
         date: "2026-01-17",
-        text: "Une fuite d'ea importante ",
+        text: "Une fuite d'ea importante, j'ai appelé Yellies pour une intervention rapide, qui est arrivé en 30min",
     },
     {
         author: "Cynthia M.",
         date: "2026-03-25",
 
-        text: "J'ai fait appel à cette entreprise pour le remplacement complet de ma vieille chaudière par une pompe à chaleur. Travail soigné, explications claires sur le fonctionnement et surtout, un chantier laissé impeccable. Je recommande vivement pour leur professionnalisme.",
+        text: "J'ai fait appel à cette entreprise pour le remplacement complet de ma vieille chaudière par une pompe à chaleur. Le travail à été impeccable",
     },
 ];
 </script>

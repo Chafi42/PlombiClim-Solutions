@@ -58,7 +58,7 @@
                     </div>
 
                     <div class="flex flex-col">
-                        <label class="text-sm font-bold mb-2">mail</label>
+                        <label class="text-sm font-bold mb-2">E-mail</label>
                         <input
                             v-model="formData.user_email"
                             name="user_email"
@@ -71,15 +71,15 @@
                 </div>
 
                 <div class="flex flex-col">
-                    <label class="text-sm font-bold mb-2">Type de service</label>
+                    <label class="text-sm font-bold mb-2">Type de specialitie</label>
                     <div class="relative w-full">
                         <select
-                            v-model="formData.service_type"
-                            name="service_type"
+                            v-model="formData.specialitie_type"
+                            name="specialitie_type"
                             required
                             class="my-2 w-full p-4 bg-white border border-gray-100 rounded-md shadow-sm appearance-none outline-none pr-10 focus:border-[#023A82]"
                         >
-                            <option value="">Choisissez un service</option>
+                            <option value="">Choisissez une spécialité</option>
                             <option value="plomberie">Plomberie</option>
                             <option value="chauffage">Chauffage</option>
                             <option value="climatisation">Climatisation</option>
@@ -134,7 +134,7 @@ const loading = ref(false);
 const formData = ref({
     user_name: '',
     user_email: '',
-    service_type: '',
+    specialitie_type: '',
     message: ''
 });
 
@@ -150,7 +150,7 @@ const sendEmail = () => {
         .then(() => {
             alert('Demande envoyée avec succès !');
             // Reset du formulaire
-            formData.value = { user_name: '', user_email: '', service_type: '', message: '' };
+            formData.value = { user_name: '', user_email: '', specialitie_type: '', message: '' };
         })
         .catch((error) => {
             alert("Erreur lors de l'envoi : " + error.text);
