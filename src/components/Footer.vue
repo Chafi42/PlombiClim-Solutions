@@ -10,8 +10,11 @@
                     class="flex flex-col items-center md:items-start group cursor-pointer"
                 >
                     <div class="flex flex-col leading-none">
-                        <img src="@/assets/images/PlombiClimSolutions.png" alt="Logo PlombiClim" class="h-16 md:h-20 w-auto mb-1">
-                        
+                        <img
+                            src="@/assets/images/PlombiClimSolutions.png"
+                            alt="Logo PlombiClim"
+                            class="h-16 md:h-20 w-auto mb-1"
+                        />
                     </div>
                 </div>
 
@@ -62,15 +65,12 @@
                 </div>
             </div>
 
-            <div class=" flex flex-col gap-8 mb-12">
-                <p
-                    class="text-slate-400 text-xs text-center tracking-wide"
-                >
-                    © Copyright 2026 Chafi AADSSI. Tous droits réservés.
+            <div class="flex flex-col gap-8 mb-12">
+                <p class="text-slate-400 text-xs text-center tracking-wide">
+                    © {new Date().getFullYear()} Signature Digitale.
+                    Tous droits réservés.
                 </p>
             </div>
         </div>
     </footer>
 </template>
-
-<script setup></script>
